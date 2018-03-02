@@ -1,11 +1,11 @@
 <template>
-  <v-app light>
+  <v-app>
     <v-navigation-drawer :clipped="clipped" v-model="drawer" enable-resize-watcher app>
       <v-toolbar flat>
         <v-list>
           <v-list-tile>
             <v-list-tile-title class="title">
-              Nav Links
+              Menu
             </v-list-tile-title>
           </v-list-tile>
         </v-list>
@@ -35,47 +35,45 @@
         </v-container>
       </v-content>
     </main>
-    <v-footer :fixed="fixed" app>
-      <span class="copyright">&copy; 2017</span>
-    </v-footer>
   </v-app>
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        clipped: false,
-        drawer: true,
-        fixed: false,
-        items: [
-          { title: 'Home', icon: 'dashboard', route: 'home' },
-          { title: 'Forms', icon: 'assignment', route: 'list' },
-          { title: 'About', icon: 'question_answer', route: 'home' }
-        ],
-        miniVariant: false,
-        right: true,
-        rightDrawer: false,
-        title: 'PWA Offline Management',
-        networkStatus: null
-      }
+export default {
+  data () {
+    return {
+      clipped: false,
+      drawer: false,
+      fixed: false,
+      items: [
+        { title: 'Home', icon: 'dashboard', route: 'home' },
+        { title: 'Demo: Commercial Cleaning', icon: 'assignment', route: 'clean' },
+        { title: 'Demo: Community Safety', icon: 'assignment', route: 'commsafety' },
+        { title: 'About', icon: 'question_answer', route: 'home' }
+      ],
+      miniVariant: false,
+      right: true,
+      rightDrawer: false,
+      title: 'Sound Future Initiative',
+      networkStatus: null
+    }
+  },
+  watch: {
+    // call again the method if the route changes
+    '$route': 'fetchData'
+  },
+  created () {
+    this.fetchData()
+  },
+  methods: {
+    redirect (routeName) {
+      this.$router.push({ name: routeName })
     },
-    watch: {
-      // call again the method if the route changes
-      '$route': 'fetchData'
-    },
-    created () {
-      this.fetchData()
-    },
-    methods: {
-      redirect (routeName) {
-        this.$router.push({ name: routeName })
-      },
-      fetchData () {
-        this.networkStatus = navigator.onLine ? 'online' : 'offline'
-      }
+    fetchData () {
+      this.networkStatus = navigator.onLine ? 'online' : 'offline'
     }
   }
+}
 </script>
 
 <style lang="stylus">

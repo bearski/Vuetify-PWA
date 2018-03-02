@@ -1,27 +1,41 @@
 <template>
   <v-slide-y-transition mode="out-in">
     <v-layout column>
-      <v-flex d-flex xs12>
+      <v-flex xs12 sm6 offset-sm3>
         <v-card>
-          <v-card-title primary class="title">Forms</v-card-title>
+          <v-card-media
+            class="white--text"
+            height="200px"
+            src="/static/img/comm_clean.jpg"
+          >
+            <v-container fill-height fluid>
+              <v-layout fill-height>
+                <v-flex xs12 align-end flexbox>
+                  <span class="headline">Commercial Cleaning</span>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card-media>
+
           <v-card-text>
             <ul>
               <li v-for="(item, index) in sortedItems">
-                <router-link :to="{ name: 'edit', params: { id: item.id }}">{{ item.name }}</router-link>
+                <router-link :to="{ name: 'cleanModule', params: { id: item.id }}">{{ item.name }} :  {{ item.objective }}</router-link>
               </li>
             </ul>
-          </v-card-text>
+          </v-card-text>          
         </v-card>
       </v-flex>
+
     </v-layout>
   </v-slide-y-transition>
 </template>
 
 <script>
-  import serverData from '../server/data.json'
+  import serverData from '../server/clean.json'
 
   export default {
-    name: 'list',
+    name: 'clean',
     data () {
       return {
         items: null
@@ -45,7 +59,7 @@
           console.log('User is offline - Fetching tag information from localstorage')
           this.$set(this, 'items', JSON.parse(localStorage.getItem('tags')))
         }
-//        console.log('items: ' + JSON.stringify(this.items))
+        console.log('items: ' + JSON.stringify(this.items))
       }
     }
   }

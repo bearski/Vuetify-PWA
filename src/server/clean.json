@@ -1,0 +1,142 @@
+{
+  "title":  "Commercial Cleaning",
+  "image":  "comm_clean.jpg",
+  "tags": [
+    {
+      "id": 1,
+      "name": "Module 1",
+      "objective": "How to handle and store cleaning equipment and materials",
+      "objective_alt": "Handling and storage of equipment",
+      "mod_image": "cleaning-supplies.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "Introduction to Cleaning Equipment"},
+        {"id": 2, "title": "Safety Precautions and Protective Gear"},
+        {"id": 3, "title": "Cleaning and Maintaining Cleaning Equipment"},
+        {"id": 4, "title": "Preparation for Cleaning"},
+        {"id": 5, "title": "Problem solving and dealing with unexpected challenges"}
+      ],
+      "text": "Before you  can be an excellent cleaning professional you should know what kinds of cleaning equipment you may encounter in the workplace, and how to use it correctly and safely.",
+      "video_link": "https://www.youtube.com/watch?v=i3u27-oJzBY",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Module 2",
+      "objective": "How to control and order stock of cleaning materials",
+      "objective_alt": "Controlling and Ordering Stock",
+      "mod_image":  "order.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "The importance of maintaining stock levels of cleaning consumables"},
+        {"id": 2, "title": "Concepts around stock losses of cleaning consumables"},
+        {"id": 3, "title": "Stock storage and movement of cleaning consumables"},
+        {"id": 4, "title": "Purchase and supply agreements for cleaning consumables"},
+        {"id": 5, "title": "How to maintain adequate stock levels of cleaning consumables"},
+        {"id": 6, "title": "Stock taking of cleaning supplies and consumables"},
+        {"id": 7, "title": "Preparation procedures for receiving cleaning supplies"},
+        {"id": 8, "title": "Receiving cleaning supplies and consumables"},
+        {"id": 9, "title": "Handling and transportation of cleaning supplies and consumables"},
+        {"id": 10, "title": "Problem solving and unexpected challenges related to stock control and management of cleaning supplies and consumables"}
+      ],
+      "text": "",
+      "video_link": "",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Module 3",
+      "objective": "How to clean rooms and offices",
+      "objective_alt": "Cleaning Rooms and Offices",
+      "mod_image":  "annie-spratt-294450.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "Replenishing complimentary items in guest bedrooms"},
+        {"id": 2, "title": "A checklist after completion of cleaning procedures in guest rooms and offices"},
+        {"id": 3, "title": "Problem solving and unexpected challenges related to cleaning of rooms and offices"}
+      ],
+      "text": "",
+      "video_link": "",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Module 4",
+      "objective": "How to clean bathrooms, washrooms and toilets",
+      "objective_alt": "Cleaning Bathrooms, Washrooms and Toilets",
+      "mod_image":  "david-cohen-127022.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "Safety and Hygiene considerations for bathrooms, washrooms and toilets"},
+        {"id": 2, "title": "Special considerations and customer care for cleaning bathrooms, washrooms and toilets"},
+        {"id": 3, "title": "Introduction to bathroom, washroom and toilet fixtures and surfaces"},
+        {"id": 4, "title": "Maintenance procedures for bathrooms, washrooms and toilets"}
+      ],
+      "text": "",
+      "video_link": "",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Module 5",
+      "objective": "How to clean floors and floor coverings",
+      "objective_alt": "How to clean floors and floor coverings",
+      "mod_image":  "charlie-foster-154.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "The importance of a safe working environment when cleaning floors and floor coverings"},
+        {"id": 2, "title": "Cleaning materials and equipment used for cleaning floors and floors coverings"},
+        {"id": 3, "title": "Step-by-step for cleaning floors and floor coverings"},
+        {"id": 4, "title": "Problem solving and unexpected challenges related to cleaning of floors and floor coverings"}
+      ],
+      "text": "",
+      "video_link": "",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Module 6",
+      "objective": "How to clean public areas",
+      "objective_alt": "Public Areas",
+      "mod_image":  "alessio-lin-208180.jpg",
+      "audio_isiXhosa": "../../static/audio/isixhosa.ogg",
+      "audio_english": "../../static/audio/english.ogg",
+      "topics": [
+        {"id": 1, "title": "Introduction to surfaces, cleaning materials and equipment used for cleaning public areas"},
+        {"id": 2, "title": "Step-by-step for cleaning public areas"},
+        {"id": 3, "title": "Step-by-step for cleaning stairs, lifts and escalators"},
+        {"id": 4, "title": "Step-by-step for cleaning bars and restaurant areas"},
+        {"id": 5, "title": "Step-by-step for cleaning kitchens, cold rooms and freezers"},
+        {"id": 6, "title": "Step-by-step for cleaning industrial areas and storage areas"},
+        {"id": 7, "title": "Step-by-step for cleaning special surfaces and areas"},
+        {"id": 8, "title": "Problem solving and unexpected challenges related to cleaning of floors and floor coverings"}
+      ],
+      "text": "",
+      "video_link": "",
+      "quiz": [
+        {"q_id": 1, "question": "question 1", "answer": "answer 1"},
+        {"q_id": 2, "question": "question 2", "answer": "answer 2"}
+      ]
+    }
+  ]
+}

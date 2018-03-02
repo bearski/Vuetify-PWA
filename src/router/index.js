@@ -1,10 +1,20 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
+// import VueVideoPlayer from 'vue-video-player'
+
 import Home from '@/components/Home'
-import List from '@/components/List'
-import Edit from '@/components/Edit'
+import Clean from '@/components/Clean'
+import CleanModule from '@/components/CleanModule'
+import CommSafety from '@/components/CommSafety'
+// import Video from '@/components/Video'
 
 Vue.use(Router)
+
+// Vue.use(VueVideoPlayer, /* {
+//   options: global default options,
+//   events: global videojs events
+// } */)
 
 export default new Router({
   routes: [
@@ -14,14 +24,24 @@ export default new Router({
       component: Home
     },
     {
-      path: '/forms',
-      name: 'list',
-      component: List
+      path: '/clean',
+      name: 'clean',
+      component: Clean
     },
     {
-      path: '/edit/:id',
-      name: 'edit',
-      component: Edit
+      path: '/clean/:id',
+      name: 'cleanModule',
+      component: CleanModule
+    },
+    // {
+    //   path: '/video',
+    //   name: 'video',
+    //   component: Video
+    // },
+    {
+      path: '/commsafety',
+      name: 'commsafety',
+      component: CommSafety
     }
   ]
 })

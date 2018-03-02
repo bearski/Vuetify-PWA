@@ -14,3 +14,6 @@ firebase-debug.log
 *.njsproj
 *.sln
 *.swp
+
+# some randomness
+*.backup
