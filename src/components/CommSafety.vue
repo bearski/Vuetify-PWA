@@ -40,6 +40,18 @@
          <p>‘Everyone has inherent dignity and the right to have their dignity respected protected’.</p>
          <h4>What does that mean to you personally?</h4>
        </tab-content>
+       <tab-content >
+         <h3>From Chapter 2 of the Constitution – Human Rights</h3>
+         <h4>Section 12 (1) – Freedom and security of the person</h4>
+         <p>Everyone has the right to freedom and security of the person, which includes the right</p>
+         <p>a)	Not to be deprived of freedom arbitrarily or without just cause;</p>
+         <p>b)	Not to be detained without trial;</p>
+         <p>c)	To be free from all forms of violence from either public or private sources;</p>
+         <p>d)	Not to be tortured in any way; and</p>
+         <p>e)	Not to be treated or punished in a cruel, inhuman or degrading way.</p>
+         <h4>Do you feel that you and your family are free and secure in the place where you live?</h4>
+         <h4>Think of practical ways that you could improve your community that would help everybody feel that they are free and secure in their daily lives.</h4>
+       </tab-content>
     </form-wizard>
 
 
